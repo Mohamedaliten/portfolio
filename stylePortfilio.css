@@ -1,0 +1,128 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #003147;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-bar #logo {
+    font-size: 24px;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-bar ul li {
+    margin-right: 20px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.nav-bar ul li a:hover {
+    color: #03a9f4;
+}
+
+/* Section Styles */
+section {
+    padding: 80px 0;
+}
+
+.accueil {
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.accueil h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.accueil h1 {
+    color: #333;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.accueil h4 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.img-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about {
+    background-color: #fff;
+}
+
+.content-about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.text-description {
+    max-width: 500px;
+}
+
+.text-description p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.btn-about a {
+    background-color: #03a9f4;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-about a:hover {
+    background-color: #0288d1;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #003147;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}

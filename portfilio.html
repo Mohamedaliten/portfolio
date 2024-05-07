@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_po.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    
+
+
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Mohamed Ali</a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="accueil.html">Accueil</a>
+            <a href="propos.html">À propos</a>
+            <a href="projects.html">Projets</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Mohamed Ali Tennich</h1>
+            <h3>And I'm <sapn>Front end Developer </sapn></h3>
+            <p>I'm a front-end developer skilled in HTML, CSS, and JavaScript, turning designs into captivating web experiences. Let's bring your ideas to life online!</p>            
+            <div class="btn-box">
+                <a href="#">Hire me</a>
+                <a href="contact.html">Let's Talk</a>
+             </div> 
+            
+             <div class="home-sci">
+                <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+            </div> 
+        </div>
+        
+        <div class="home-img">
+            <img src="last.png" alt="" height="90%" width="90%">
+        </div>
+    </section>
+
+    <!--contact section design-->
+    <section class="contact" id="contact">
+        <h2 class="heading"><span class="dali">Contact</span><span class="dali1"> Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full naame" class="b">
+                <input type="email" placeholder="Email address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile phone"> 
+                <input type="text" placeholder="Email subject">  
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+
+    </section>
+    <!--about section design-->
+    
+        <section class="about" id="about">
+            <div class="about-img">
+             <img src="last.png" alt="" width="70%" height="70%">  
+            </div>
+            <div class="about-content">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3>Frontend Developer</h3>
+                <p>I am a front-end developer passionate about creating engaging and user-friendly web experiences. With a strong foundation in HTML, CSS, and JavaScript, I thrive on transforming designs into interactive interfaces that captivate audiences. I am dedicated to staying updated with the latest technologies and best practices to deliver innovative solutions. Let's collaborate and bring your ideas to life on the web</p>
+            <a href="propos.html" class="btn">Read More</a>
+            
+        </section>
+        <style>
+            .container {
+                max-width: 800px;
+                margin: 50px auto;
+                padding: 20px;
+                background-color: #081b29;
+                border-radius: 8px;
+                box-shadow: 0 4px 6px rgba(252, 252, 253, 0.1);
+            }
+            h1 {
+                text-align: center;
+                color: #fff; /* Heading color */
+            }
+            .skill {
+                margin-bottom: 20px;
+                position: relative;
+            }
+            .skill-name {
+                margin-bottom: 5px;
+                font-weight: bold;
+                color: #fff; /* Skill name color */
+            }
+            .progress-bar {
+                width: 100%;
+                background-color: #e9ecef;
+                height: 20px;
+                border-radius: 10px;
+                margin-bottom: 5px;
+                overflow: hidden;
+            }
+            .progress {
+                width: 0%;
+                background-color: #00abf0; /* Progress color */
+                height: 100%;
+                border-radius: 10px;
+                animation: fillProgress 2s ease forwards;
+            }
+            @keyframes fillProgress {
+                from { width: 0%; }
+            }
+        </style>
+    </head>
+    <body>
+    
+    <div class="container">
+        <h1>Skills Progress</h1>
+        
+        <div class="skill">
+            <div class="skill-name">HTML</div>
+            <div class="progress-bar">
+                <div class="progress" style="width: 50%;"></div>
+            </div>
+        </div>
+        
+        <div class="skill">
+            <div class="skill-name">CSS</div>
+            <div class="progress-bar">
+                <div class="progress" style="width: 30%;"></div>
+            </div>
+        </div>
+        
+        <div class="skill">
+            <div class="skill-name">JavaScript</div>
+            <div class="progress-bar">
+                <div class="progress" style="width: 70%;"></div>
+            </div>
+        </div>
+    
+    </div>
+        <!--latest projects section design-->
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading"><span class="dali"></span>Latest Projects</span></h2>
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="images/1pro.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Web design</h4>
+                        <p>Welcome to my UX/UI website! We're a dedicated platform showcasing the best in UX/UI design. Dive into a world of creativity and innovation, where stunning visuals meet seamless user experiences. Explore inspiring projects, insightful articles, and valuable resources—all in one place. Join us on the journey of design excellence!!</p>
+                        <a href="projects.html"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+        
+                <div class="portfolio-box">
+                    <img src="images/2pro.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Web design</h4>
+                        <p>Welcome to my Ecommerce website! Explore a world of cycling convenience and style with our curated selection of bikes and accessories. From urban commuters to mountain adventures, find your perfect ride with ease. Ride confidently with detailed product info and secure checkout. Let's pedal together towards your next adventure!</p>
+                        <a href="projects.html"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+        
+                <div class="portfolio-box">
+                    <img src="images/3pro.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Web design</h4>
+                        <p> Welcome to My travel website! Embark on a journey of exploration and discovery with our curated selection of travel experiences. From tranquil getaways to thrilling adventures, find your perfect escape with ease. Explore detailed destination guides, browse traveler reviews, and book your dream vacation with confidence. Let's make unforgettable memories together!</p>
+                        <a href="projects.html"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <footer class="foot">
+                <div class="fotext">
+                    <p>&copy; 2024 Mohamed Ali Tennish. All rights reserved.</p>
+                </div>
+                <div class="footer-iconTop">
+                    <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+                </div>
+            </footer>
+            <script src="https://unpkg.com/scrollreveal"></script>
+            <script src="js/script.js"></script>
+</body>
+</html>
